@@ -1,0 +1,25 @@
+---
+title: "Ques1"
+output: html_document
+---
+
+## R Markdown
+#initialise some variables in R, now analyse and display whateveer vars
+# are created, then delete a single and all vars.
+
+#initialise some vars with diff types of values, now analse
+# their type
+
+#WARS to init my ro,ll number, name and branch, and display all details
+
+#WARS to initialise 2 vars and find sum.
+
+#WARS to ebnter 2 nos from the keyboard and perform 4 arthmetic operations on thm.
+
+#WARS to enter a 3 digit number and find out sum of all 3 digits.
+
+#WARS to enter the radius of a circle and find its area and circumference.
+
+#WARS to calculate the compound inerest of the given PTR
+
+#WARS to enter 2 nos and swap w/o using 3rd var
