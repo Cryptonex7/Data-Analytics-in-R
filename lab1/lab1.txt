@@ -1,0 +1,47 @@
+R is a statistical tool and an effective language that we use to analyse the data. It includes conditional loops, user defined recursive functions, etc. for graphical representation of huge data sets R is used. We can execture the program by using the command line or using an R script file.
+
+R data Objects 
+1. Vectors
+2. List
+3. Matrices
+4. Arrays
+5. Factors
+6. Dataframes
+
+Generally we use # followed by the comment line for giving comment in a single line. For multi-line comments, if (FALSE) { comment }
+
+R datatypes:
+1. Logical - True, False
+2. Numeric
+3. Integer - 2L, 30L...
+4. Complex - 4 + i6
+5. Character - 'a', 'good'
+6. Raw - v <- charToRaw("Hello")
+
+=> Vectors
+apple <- c('red', 'green', 'yellow')
+class(apple) => character
+
+=> List
+list1 <- list(c(2, 5, 3), 21.3, sin)
+
+=> Matrices - 2D type data object
+M = matrix(c('a', 'b', 'c', 'd', 'e', 'f'), nrow = 2, ncol = 3, byrow = TRUE) 
+byrow - fill by row.
+
+=> Arrays more than 2D - ex: 3X3X2:
+a = array(c('green', 'yellow'), dim= c(3, 3, 2))
+
+=> Factors
+3 steps to create  a factor.
+1. Create a vector e.g.: apple = c('g', 'y', 'r')
+2. Create a factor object: fact = factor(apple)
+3. print(fact) - 
+4. print (nlevels(fact)) - nlevels used to find number of distinct elements
+
+=> Dataframes
+1. To represent all the data values of the variables in a tabular form.
+2. BMI = data.frame(gender = c('M', 'F'), height = c(13.5, 14.5, 6.5), weight = c(45, 60, 90), age = c(60, 61, 62))
+// Output
+
+
