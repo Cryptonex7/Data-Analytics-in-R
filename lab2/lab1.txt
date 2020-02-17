@@ -15,7 +15,7 @@ R datatypes:
 2. Numeric
 3. Integer - 2L, 30L...
 4. Complex - 4 + i6
-5. Character - 'a', 'good'
+5. Character - 'a', "good"
 6. Raw - v <- charToRaw("Hello")
 
 => Vectors
